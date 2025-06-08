@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+  background: #fafafa;
+}
+
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a03c3c;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+nav a, footer {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover, .banner button:hover, form button:hover {
+  text-decoration: underline;
+  background: #555;
+}
+
+.banner {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner h1 { font-size: 2em; margin: 0 0 10px; }
+.banner p { font-size: 1.2em; margin: 0 0 20px; }
+
+.banner button, form button {
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #222;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+section ol li, .benefits-column ul li { margin-bottom: 10px; }
+
+#beneficios .benefits-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.benefits-column { flex: 1; min-width: 200px; }
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #ddd;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form input {
+  margin-top: 10px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
