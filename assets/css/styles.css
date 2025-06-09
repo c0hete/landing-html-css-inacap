@@ -22,9 +22,11 @@ nav a, footer {
   font-weight: bold;
 }
 
+
+
 nav a:hover, .banner button:hover, form button:hover {
   text-decoration: underline;
-  background: #555;
+  background: #ac6d6d;
 }
 
 .banner {
@@ -40,7 +42,7 @@ nav a:hover, .banner button:hover, form button:hover {
   padding: 12px 20px;
   margin: 10px 0;
   border: none;
-  background: #333;
+  background: #a71414;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
@@ -68,6 +70,7 @@ section ol li, .benefits-column ul li { margin-bottom: 10px; }
   gap: 20px;
   flex-wrap: wrap;
 }
+
 
 .benefits-column { flex: 1; min-width: 200px; }
 
